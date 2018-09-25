@@ -8,7 +8,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('https://fonts.googleapis.com/css?family=Nunito:200,600') }}" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -92,5 +92,6 @@
                 </div>
             </div>
         </div>
+        <script src="{{ secure_asset('js/app.js') }}"></script>
     </body>
 </html>
